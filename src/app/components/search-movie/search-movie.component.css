@@ -1,0 +1,51 @@
+.buscador {
+    display: flex;
+  flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px 0px;
+}
+.buscador input {
+    width: 550px;
+
+    padding: 0px 40px;
+    border-radius: 5%;
+    height: 45px;
+}
+.buscador button {
+    width: 200px;
+    height: 45px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+.tarjeton {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tarjeton .img {
+    width: 20px;
+    height: 20%;
+}
+.contenedor .tarjeton h2 {
+    font-size: 23px;
+}
+/* .contenedor .tarjeton button {
+    background-color: crimson;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10%;
+    height: 50px;
+    width: 95px;
+} */

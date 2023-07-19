@@ -1,0 +1,18 @@
+<div class="d-flex buscador p-5 d-flex justify-content-evenly">
+    <h1>Buscador</h1>
+    <input class="card" type="text" placeholder="Busca una película" [(ngModel)]="peliculaBuscar" (keydown)="onKeyPress($event)">
+    <button class="btn btn-primary 
+    " (click)="getMovies()">Buscar</button>
+    <!-- <p>{{notFound}}</p> -->
+</div>
+
+
+
+<div class="contenedor">
+    <div class="tarjeton shadow card" *ngFor="let pelicula of peliculas">
+        <h2>{{pelicula.Title}}</h2>
+        <h3>{{pelicula.Year}}</h3>
+        <img [src]="pelicula.Poster" [alt]="pelicula.Title">
+        <button class="btn btn-primary p-3 m-2" (click)="movie(pelicula.imdbID)">ver detalles</button>
+    </div>
+</div>

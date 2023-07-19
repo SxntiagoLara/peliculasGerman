@@ -1,0 +1,21 @@
+/* .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.contenedor .cont1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.contenedor .cont2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+span {
+    color: crimson;
+} */
